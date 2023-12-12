@@ -1,3 +1,4 @@
+function Script(){
 let points = 0
 let q1 = prompt("What is the smallest planet in our solar system?")
 let q2 = prompt('Which planet is known as the "Red Planet"?')
@@ -23,4 +24,4 @@ if (q9.toLowerCase() == 'a') {points=points+1}
 if (q10.toLowerCase() == 'a') {points=points+1}
 if (q11.toLowerCase() == 'true') {points=points+1}
 
-if (points >= 10) {alert(`You won! with ${points} points.`)} else {alert(`You got ${points} points. We thank you for trying.`)}
+if (points >= 10) {alert(`You won! with ${points} points.`)} else {alert(`You got ${points} points. We thank you for trying.`)}};

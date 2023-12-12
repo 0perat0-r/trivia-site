@@ -14,3 +14,15 @@ IMG.triviaImage {
     margin-left: auto;
     margin-right: auto 
 }
+
+.button1 {
+    background-color: #23A55A;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    color: whitesmoke;
+    cursor: pointer;
+  }
