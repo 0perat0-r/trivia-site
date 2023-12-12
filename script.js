@@ -12,16 +12,16 @@ let q9 = prompt("What is the approximate population of Earth? \n a: 7 billion \n
 let q10 = prompt("What is the most consumed liquid in the world?")
 let q11 = prompt("Does HTML stand for Hyper Text Markup Language? Respond with True or False.")
 
-if (q1.toLowerCase() == "mercury") {points=points+1}
-if (q2.toLowerCase() == "mars") {points=points+1}
-if (q3.toLowerCase() == 'moscow') {points=points+1}
-if (q4.toLowerCase() == 'joe biden') {points=points+1}
-if (q5.toLowerCase() == 'fe') {points=points+1}
-if (q6.toLowerCase() == '4') {points=points+1}
-if (q7.toLowerCase() == 'false') {points=points+1}
-if (q8.toLowerCase() == 'russia') {points=points+1}
-if (q9.toLowerCase() == 'a') {points=points+1}
-if (q10.toLowerCase() == 'water') {points=points+1}
-if (q11.toLowerCase() == 'true') {points=points+1}
+if (q1.toLowerCase() == "mercury" || q1.toLowerCase() == "mercury ") {points=points+1}
+if (q2.toLowerCase() == "mars" || q2.toLowerCase() == "mars ") {points=points+1}
+if (q3.toLowerCase() == 'moscow' || q3.toLowerCase() == 'moscow ') {points=points+1}
+if (q4.toLowerCase() == 'joe biden' || q4.toLowerCase() == 'joe biden ') {points=points+1}
+if (q5.toLowerCase() == 'fe' || q5.toLowerCase() == 'fe ') {points=points+1}
+if (q6.toLowerCase() == '4' || q6.toLowerCase() == '4 ') {points=points+1}
+if (q7.toLowerCase() == 'false'|| q7.toLowerCase() == 'false ') {points=points+1}
+if (q8.toLowerCase() == 'russia' || q8.toLowerCase() == 'russia ') {points=points+1}
+if (q9.toLowerCase() == 'a' || q9.toLowerCase() == 'a ') {points=points+1}
+if (q10.toLowerCase() == 'water' || q10.toLowerCase() == 'water ') {points=points+1}
+if (q11.toLowerCase() == 'true' || q11.toLowerCase() == 'true ') {points=points+1}
 
 if (points >= 10) {alert(`You won! with ${points} points.`)} else {alert(`You got ${points} points. We thank you for trying.`)}};
